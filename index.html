@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= START SCREEN ================= -->
+
+    <section class="welcome" id="welcome">
+
+        <div class="welcome-content">
+
+            <div class="gift">🎁</div>
+
+            <p class="welcome-small">
+                A LITTLE SURPRISE FOR YOU
+            </p>
+
+            <h1>
+                𝓗𝓮𝔂, 𝓑𝓮𝓪𝓾𝓽𝓲𝓯𝓾𝓵 ❤️
+            </h1>
+
+            <p>
+                I made something special for you...
+            </p>
+
+            <button id="openBtn">
+                Open Your Surprise ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= MAIN WEBSITE ================= -->
+
+    <main id="main">
+
+
+        <!-- ================= MUSIC ================= -->
+
+        <audio id="birthdayMusic" loop>
+            <source src="music/birthday.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="secretMusic">
+            <source src="music/caaa.mp3" type="audio/mpeg">
+        </audio>
+
+        <button id="musicBtn">
+            🔊
+        </button>
+
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero">
+
+            <div class="balloons">
+                💗💗💗💗💗💗
+            </div>
+
+            <div class="hearts">
+                🤍🤍🤍🤍🤍🤍
+            </div>
+
+            <p class="section-small">
+                TODAY IS YOUR DAY
+            </p>
+
+            <h1>
+                𝓗𝓪𝓹𝓹𝔂 𝓑𝓲𝓻𝓽𝓱𝓭𝓪𝔂 💕
+                <span>𝓑𝓮𝓪𝓾𝓽𝔂</span>
+            </h1>
+
+            <p>
+                A little website made with a lot of memories,
+                feelings and love. ❤️
+            </p>
+
+            <div class="cake">
+                🎂
+            </div>
+
+        </section>
+
+
+        <!-- ================= MEMORIES ================= -->
+
+        <section class="memories">
+
+            <p class="section-small">
+                OUR MEMORIES
+            </p>
+
+            <h2>
+                Little Moments
+            </h2>
+
+            <div class="memory-grid">
+
+                <div class="memory">
+                    <img src="images/photo1.jpg" alt="Memory 1">
+                </div>
+
+                <div class="memory">
+                    <img src="images/photo2.jpg" alt="Memory 2">
+                </div>
+
+                <div class="memory">
+                    <img src="images/photo3.jpg" alt="Memory 3">
+                </div>
+
+                <div class="memory">
+                    <img src="images/photo4.jpg" alt="Memory 4">
+                </div>
+
+                <div class="memory">
+                    <img src="images/photo5.jpg" alt="Memory 5">
+                </div>
+
+                <div class="memory">
+                    <img src="images/photo6.jpg" alt="Memory 6">
+                </div>
+
+                <div class="memory">
+                    <img src="images/photo7.jpg" alt="Memory 7">
+                </div>
+
+                <div class="memory">
+                    <img src="images/photo8.jpg" alt="Memory 8">
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= MESSAGE ================= -->
+
+        <section class="message">
+
+            <div class="message-box">
+
+                <div class="heart-icon">
+                    ❤️
+                </div>
+
+                <p class="section-small">
+                    A LITTLE MESSAGE
+                </p>
+
+                <h2>
+                    Something I Want You To Know
+                </h2>
+
+                <p id="typing-text"></p>
+
+                <button id="moreBtn">
+                    There's more... ❤️
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= OPEN WHEN ================= -->
+
+        <section class="open-when-section" id="openWhen">
+
+            <p class="section-small">
+                FOR DIFFERENT MOMENTS
+            </p>
+
+            <h2>
+                Open When...
+            </h2>
+
+            <p class="open-when-intro">
+                Choose one whenever you need it. ❤️
+            </p>
+
+
+            <div class="open-when-grid">
+
+
+                <!-- HAPPY -->
+
+                <div class="open-card"
+                    data-message="  I CAN'T SAY don't leave me alone to the world because i can't walk alone💔, BUT I CAN SAY HOPE TO YOU A lot of Happines🤍">
+
+                    <div class="open-card-icon">
+                        😊
+                    </div>
+
+                    <h3>
+                        Open when you're happy
+                    </h3>
+
+                    <p>
+                        😊
+                    </p>
+
+                </div>
+
+
+                <!-- MISS ME -->
+
+                <div class="open-card"
+                    data-message="If you miss me, remember that somewhere in this world there is someone who will always cherish the memories we made together. 🥺❤️">
+
+                    <div class="open-card-icon">
+                        🥺
+                    </div>
+
+                    <h3>
+                        Open when you miss me
+                    </h3>
+
+                    <p>
+                        🥺
+                    </p>
+
+                </div>
+
+
+                <!-- NEED A SMILE -->
+
+                <div class="open-card"
+                    data-message=" remember that i love you forever my little girl (Sibling Love)  ❤️">
+
+                    <div class="open-card-icon">
+                        ❤️
+                    </div>
+
+                    <h3>
+                        Open when you need a smile
+                    </h3>
+
+                    <p>
+                        ❤️
+                    </p>
+
+                </div>
+
+
+                <!-- REMEMBER US -->
+
+                <div class="open-card" data-message=" OUR EYES CAN'T LIE  AT ANY TIME">
+
+                    <div class="open-card-icon">
+                        ❣
+                    </div>
+
+                    <h3>
+                        Open when you remember us
+                    </h3>
+
+                   
+
+                </div>
+
+            </div>
+
+
+            <!-- OPEN WHEN MESSAGE -->
+
+            <div id="openWhenMessage" class="open-when-message">
+
+                <span class="close-open-message">
+                    ×
+                </span>
+
+                <div id="openWhenIcon">
+                    ❤️
+                </div>
+
+                <p id="openWhenText"></p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SURPRISE ================= -->
+
+        <section class="surprise">
+
+            <div class="surprise-box">
+
+                <div class="gift-big">
+                    🎁
+                </div>
+
+                <p class="section-small">
+                    ONE MORE THING
+                </p>
+
+                <h2>
+                    𝓘 𝓱𝓪𝓿𝓮 𝓪 𝓵𝓲𝓽𝓽𝓵𝓮 𝓼𝓾𝓻𝓹𝓻𝓲𝓼𝓮
+                </h2>
+
+                <p>
+                    𝑀𝒶𝓎𝒷𝑒 𝓉𝒽𝑒𝓇𝑒’𝓈 𝓈𝑜𝓂𝑒𝓉𝒽𝒾𝓃𝑔 𝓌𝒶𝒾𝓉𝒾𝓃𝑔 𝒻𝑜𝓇 𝓎𝑜𝓊
+                </p>
+
+                <button id="giftBtn">
+                    Open It ❤️
+                </button>
+
+                <div id="finalMessage">
+
+                    <p>
+                        𝒴𝑜𝓊 𝒶𝓇𝑒 𝓂𝓎 𝒷𝑒𝒶𝓊𝓉𝒾𝒻𝓊𝓁𝑒𝓈𝓉 𝒶𝒸𝒸𝒾𝒹𝑒𝓃𝓉. 🤍❤️
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SECRET SECTION ================= -->
+
+        <section class="secret-section" id="secretSection">
+
+            <div class="secret-container">
+
+                <p class="section-small">
+                    SOMETHING IS WAITING
+                </p>
+
+                <h2>
+                    A Little Secret 🔐
+                </h2>
+
+                <p>
+                    Maybe you can find your way through it...
+                </p>
+
+
+                <!-- ================= COUNTDOWN ================= -->
+
+                <div id="countdown" class="countdown">
+
+                    <div class="time-box">
+
+                        <span id="days">
+                            00
+                        </span>
+
+                        <small>
+                            Days
+                        </small>
+
+                    </div>
+
+
+                    <div class="time-box">
+
+                        <span id="hours">
+                            00
+                        </span>
+
+                        <small>
+                            Hours
+                        </small>
+
+                    </div>
+
+
+                    <div class="time-box">
+
+                        <span id="minutes">
+                            00
+                        </span>
+
+                        <small>
+                            Minutes
+                        </small>
+
+                    </div>
+
+
+                    <div class="time-box">
+
+                        <span id="seconds">
+                            00
+                        </span>
+
+                        <small>
+                            Seconds
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ================= LOCKED CARD ================= -->
+
+                <div id="lockedCard" class="locked-card">
+
+                    <div class="lock-icon">
+                        🔒
+                    </div>
+
+                    <h3>
+                        Not yet...
+                    </h3>
+
+                    <p>
+                        Something will unlock when the time comes.
+                    </p>
+
+                </div>
+
+
+                <!-- ================= LEVEL 01 ================= -->
+
+                <div id="level1" class="secret-level">
+
+                    <div class="level-number">
+                        LEVEL 01 🔓
+                    </div>
+
+                    <h3>
+                        A Little Memory
+                    </h3>
+
+                    <p>
+                        The First Password
+                    </p>
+
+                    <input type="text" id="level1Input" placeholder="Your answer...">
+
+                    <button id="level1Btn">
+                        Unlock
+                    </button>
+
+                    <p id="level1Error" class="secret-error"></p>
+
+                </div>
+
+
+                <!-- ================= LEVEL 02 ================= -->
+
+                <div id="level2" class="secret-level">
+
+                    <div class="level-number">
+                        LEVEL 02 🔐
+                    </div>
+
+                    <h3>
+                        Love You 🤍
+                    </h3>
+
+                    <p>
+                        The Second Password
+                    </p>
+
+                    <p class="hint">
+                        Hint: Sometimes the smallest word
+                        hides the biggest memory.
+                    </p>
+
+                    <input type="text" id="level2Input" placeholder="Enter the code...">
+
+                    <button id="level2Btn">
+                        Continue
+                    </button>
+
+                    <p id="level2Error" class="secret-error"></p>
+
+                </div>
+
+
+                <!-- ================= LEVEL 03 ================= -->
+
+                <div id="level3" class="secret-level">
+
+                    <div class="level-number">
+                        LEVEL 03 ❤️
+                    </div>
+
+                    <h3>
+                        𝒯𝒽𝑒 𝒹𝒶𝓎 𝓉𝒽𝑒 𝓂𝑜𝑜𝓃 𝓌𝒶𝓈 𝒷𝑜𝓇𝓃, 𝒷𝑒𝒶𝓊𝓉𝓎 𝒻𝑜𝓊𝓃𝒹 𝒾𝓉𝓈 𝓌𝒶𝓎 𝓉𝑜
+                        𝑒𝒶𝓇𝓉𝒽
+                    </h3>
+
+                    <p>
+                        One last answer...
+                    </p>
+
+                    <input type="text" id="level3Input" placeholder="Final password...">
+
+                    <button id="level3Btn">
+                        Unlock Everything ❤️
+                    </button>
+
+                    <p id="level3Error" class="secret-error"></p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SECRET REVEAL ================= -->
+
+        <div id="secretReveal" class="secret-reveal">
+
+            <div class="stars"></div>
+
+            <div class="reveal-content">
+
+                <div class="unlock-icon">
+                    🔓
+                </div>
+
+                <h2>
+                    𝒴𝑜𝓊 𝒻𝑜𝓊𝓃𝒹 𝓌𝒽𝒶𝓉 𝐼 𝓌𝒶𝓈 𝒽𝒾𝒹𝒾𝓃𝑔...
+
+                    𝒮𝑜𝓂𝑒 𝓅𝑒𝑜𝓅𝓁𝑒 𝒶𝓇𝑒 𝓌𝓇𝒾𝓉𝓉𝑒𝓃 𝒾𝓃 𝑜𝓊𝓇 𝓈𝓉𝑜𝓇𝓎 𝒷𝓎 𝒸𝒽𝒶𝓃𝒸𝑒...
+
+                    𝒷𝓊𝓉 𝓈𝑜𝓂𝑒 𝒻𝑒𝑒𝓁 𝒶𝓈 𝒾𝒻 𝓉𝒽𝑒𝓎 𝓌𝑒𝓇𝑒 𝓌𝓇𝒾𝓉𝓉𝑒𝓃 𝒷𝓎 𝒻𝒶𝓉𝑒. ✨
+                </h2>
+
+
+
+
+                <!-- ================= ARABIC SECRET MESSAGE ================= -->
+
+                <div class="arabic-reveal">
+
+                    <h2>
+                        كنتِ أجملَ صدفةٍ أهداني إيّاها القدر
+                    </h2>
+
+                    <h3>
+                        سيظل وجودكِ فيها شيئًا لن أنساه ❤️
+                    </h3>
+
+                    <p>
+
+                    </p>
+
+                    <h3>
+                        Word ❤️
+                    </h3>
+
+                </div>
+
+
+                <button id="lastThingBtn">
+                    One Last Thing... ❤️
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================= ONE LAST THING ================= -->
+
+        <section id="oneLastThing" class="one-last-thing">
+
+            <div class="last-content">
+
+                <p class="last-small">
+                    ONE LAST THING...
+                </p>
+
+                <h2>
+                    Maybe we were only a chapter...
+                </h2>
+
+                <p class="last-line">
+                    but you were my favorite one. ❤️
+                </p>
+
+
+                <div id="finalImage" class="final-image">
+
+                    <img src="images/photo9.jpg" alt="Picture">
+
+                </div>
+                <h3>  Our Eyes Can't Lie </h3>
+
+                
+                
+
+
+                <p class="last-signature">
+                    Name ❤️
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FOOTER ================= -->
+
+        <footer>
+
+            <p>
+                Made with ❤️ To the best girl 
+            </p>
+
+        </footer>
+
+    </main>
+
+
+    <!-- ================= IMAGE MODAL ================= -->
+
+    <div id="imageModal" class="image-modal">
+
+        <span class="close-modal">
+            ×
+        </span>
+
+        <img id="modalImage" src="" alt="Memory">
+
+    </div>
+
+
+    <!-- ================= HIDDEN CODE ================= -->
+
+    <!--
+        Sometimes the smallest word hides the biggest memory.
+
+        LEVEL 02 CODE: LYLO
+    -->
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
